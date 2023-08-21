@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Turbo Cloud</title>
-  </head>
-  <body>
-    <!-- <header class="dark-header py-4">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Turbo Cloud</title>
+</head>
+
+<body>
+  <!-- <header class="dark-header py-4">
       <div class="container mx-auto flex justify-between items-center">
         <img src="./assets/images/logo.svg" alt="Turbo Cloud Logo" />
       </div>
@@ -31,39 +28,38 @@
       </div>
     </aside>
     <main class="dark-content container py-8">
-      <h2 class="text-4xl font-semibold text-white">Turbo Cloud</h2>
+      <h2 class="text-4xl font-semibold text-white">Turbo-Cloud Project Documentation</h2>
       <section class="py-14 container">
-        <h2 class="text-3xl font-semibold text-white">Introduction</h2>
+        <h2 class="text-3xl font-semibold text-white underline">Introduction</h2>
         <p class="text-white mt-4">
-          Turbo-Cloud is a streamlined web application designed to simplify
-          email and SMS messaging. Utilizing React.js, Node.js, and
-          PostgreSQL, Turbo-Cloud offers user-friendly interfaces,
-          authentication, and specialized messaging services. Users can
-          quickly sign up using email or Google authentication, explore
-          product listings, and utilize "Turbo Send SMS" and "Turbo Send
-          Email" services. With a commitment to continuous improvement,
-          Turbo-Cloud is poised to evolve, welcoming future enhancements that
-          will further empower users and broaden its capabilities for
-          effective communication.
-        </p>
+          The "Turbo-Cloud" project is a dynamic web-based platform designed to offer organizations seamless access to a
+          range of cloud services. Built upon ReactJS, Node.js, Express, and PostgreSQL, the platform features secure
+          user authentication through both traditional login and Google authentication methods. Users can explore a
+          diverse product catalog and even create their own products. Moreover, the platform introduces a suite of
+          services including "Send SMS" and "Send Email," enabling organizations to efficiently communicate
+          with their audience. With its user-centric design and powerful functionalities, Turbo-Cloud aims to elevate
+          organizational productivity by providing a comprehensive cloud service solution. </p>
       </section>
       <div>
         <ul>
-          <ol class="font-bold text-2xl mb-4">
+          <ol class="font-bold text-2xl mb-4 underline">
             Project Overview
           </ol>
           <ul class="ml-10 my-5">
             <li><span class="font-semibold">Project Name:</span> Turbo-Cloud</li>
             <li>
-              <span class="font-semibold">Purpose:</span> Develop a web application to send emails and SMS using
-              React.js, Node.js, Express, and PostgreSQL.
+              <span class="font-semibold">Description:</span> Turbo-Cloud is a web-based platform that offers a range of
+              cloud services to organizations, including user authentication, product management, and various
+              cloud-based services such as SMS and email sending.
+
             </li>
             <li>
               <span class="font-semibold"> Scope:</span> The application includes user authentication, product
               listings, and services for sending emails and SMS.
             </li>
           </ul>
-          <ol class="font-bold text-2xl mb-4 mt-4">
+
+          <ol class="font-bold text-2xl mb-4 mt-4 underline">
             Project Architecture
           </ol>
           <ul class="ml-10 my-5">
@@ -78,90 +74,130 @@
               email/password and Google OAuth.
             </li>
           </ul>
-          <ol class="font-bold text-2xl mb-4 mt-4">
-            Login and Authentication
+
+          <ol class="font-extrabold text-2xl underline">User Authentication</ol>
+
+          <ul class="ml-10 mb-5">
+            <ol class="font-bold text-xl mb-4 mt-4">
+              Login Page
+            </ol>
+            <ul class="ml-10 my-5">
+              <li>
+                <span class="font-semibold">Description: </span>The login page allows users to log into the Turbo-Cloud
+                platform.
+              </li>
+              <li>
+                <ol class="font-semibold">Functionality:</ol>
+                <ul class="ml-10 mb-2">
+                  <li>1. Users can enter their credentials (username and password) to log in.</li>
+                  <li>2. Users can use Google authentication for a seamless login experience.</li>
+                </ul>
+              </li>
+              <li>
+                <span class="font-semibold">Implementation: </span>ReactJS, Node.js, Express
+              </li>
+            </ul>
+
+
+            <ol class="font-bold text-xl mb-4 mt-4">
+              Sign-Up
+            </ol>
+            <ul class="ml-10 my-5">
+              <li>
+                <span class="font-semibold">Description: </span>The sign-up page allows new users to create accounts on
+                Turbo-Cloud.
+              </li>
+              <li>
+                <ol class="font-semibold">Functionality:</ol>
+                <ul class="ml-10 mb-2">
+                  <li>1. Users can provide their information (name, email, password) to create an account.</li>
+                </ul>
+              </li>
+              <li>
+                <span class="font-semibold">Implementation: </span> ReactJS, Node.js, Express, PostgreSQL
+              </li>
+            </ul>
+          </ul>
+
+          <ol class="font-extrabold text-2xl underline">
+            Products
           </ol>
           <ul class="ml-10 my-5">
+            <li><span class="font-semibold">Description:</span> The products page showcases a variety of products
+              available on Turbo-Cloud.</li>
             <li>
-              <span class="font-semibold">Login Page:</span> Design and implementation of a login page with a
-              form for email/password login.
+              <ol class="font-semibold">Functionality:</ol>
+              <ul class="ml-10 mb-2">
+                <li>1. Users can view a list of products with details.</li>
+                <li>2. Authenticated users can create their own products.</li>
+              </ul>
             </li>
             <li>
-              <span class="font-semibold"> Signup Page:</span> Design and implementation of a signup page for new
-              users.
-            </li>
-            <li>
-              <span class="font-semibold"> Google Authentication:</span> Integration of Google OAuth for quick
-              user sign-in.
+              <span class="font-semibold">Implementation: </span> ReactJS, Node.js, Express, PostgreSQL
             </li>
           </ul>
-          <ol class="font-bold text-2xl mb-4 mt-4">
-            Product Listings
+
+          <ol class="font-extrabold text-2xl underline">
+            Services
           </ol>
-          <ul class="ml-10 my-5">
-            <li>Products Page: Display a list of products available.</li>
-            <li>
-              <span class="font-semibold">Product Details:</span> Show details of selected products, including
-              name, description, and price.
-            </li>
-            <li>
-              <span class="font-semibold"> Add Product:</span> Implement an "Add Product" button to add new
-              products to the listing.
-            </li>
+          <ul class="ml-10">
+            <ol class="font-bold text-xl mb-4 mt-4">
+              Send SMS
+
+            </ol>
+            <ul class="ml-10 my-5">
+              <li>
+                <span class="font-semibold"> Description:</span>Send SMS service allows users to send SMS
+                messages.
+              </li>
+              <li>
+                <ol class="font-semibold">Functionality:</ol>
+                <ul class="ml-10 mb-2">
+                  <li>1. Users can provide recipient information, subject, and message content.</li>
+                  <li>2. Users can trigger the sms sending process.</li>
+                </ul>
+              </li>
+              <li>
+                <span class="font-semibold">Implementation: </span> Node.js, Express, External SMS API
+              </li>
+            </ul>
+
+
+            <ol class="font-bold text-xl mb-4 mt-4">
+               Send Email
+
+            </ol>
+            <ul class="ml-10 my-5">
+              <li>
+                <span class="font-semibold"> Description:</span>The Send Email service allows users to send
+                Emails.
+              </li>
+              <li>
+                <ol class="font-semibold">Functionality:</ol>
+                <ul class="ml-10 mb-2">
+                  <li>1. Users can provide recipient information, subject, and email content.</li>
+                  <li>2. Users can trigger the email sending process.</li>
+                </ul>
+              </li>
+              <li>
+                <span class="font-semibold">Implementation: </span> Node.js, Express, Nodemailer
+              </li>
+            </ul>
+
           </ul>
-          <ol class="font-bold text-2xl mb-4 mt-4">
-            Services for Sending Messages
+
+          <ol class="font-bold text-2xl mb-4 mt-4 underline">
+            Conclusion
+
           </ol>
-          <ul class="ml-10 my-5">
-            <li>
-              <span class="font-semibold"> Services Page:</span> Provide a list of services for sending messages.
-            </li>
-            <li>
-              <span class="font-semibold"> Turbo Send SMS:</span> Implement a service for sending SMS messages
-              using a third-party SMS gateway.
-            </li>
-            <li>
-              <span class="font-semibold">Turbo Send Email:</span> Implement a service for sending emails using a
-              third-party email service provider.
-            </li>
-          </ul>
-          <ol class="font-bold text-2xl mb-4 mt-4">
-            Database Design
-          </ol>
-          <ul class="ml-10 my-5">
-            <li>
-              <span class="font-semibold">User Table:</span> Store user information including ID, name, email,
-              and hashed passwords.
-            </li>
-            <li>
-              <span class="font-semibold">Product Table:</span> Store product details like ID, name, description,
-              and price.
-            </li>
-            <li>
-              <span class="font-semibold">Service Table:</span> Store service details including ID and name.
-            </li>
-          </ul>
-          <ol class="font-bold text-2xl mb-4 mt-4">
-            User Flows
-          </ol>
-          <ul class="ml-10 my-5">
-            <li>
-              <span class="font-semibold">Login Flow:</span> User logs in with email/password or through Google
-              authentication.
-            </li>
-            <li>
-              <span class="font-semibold"> Signup Flow:</span> New users create accounts by providing necessary
-              information.
-            </li>
-            <li>
-              <span class="font-semibold"> Product Flow:</span> Users browse products, view details, and add
-              products to the cart.
-            </li>
-            <li>
-              <span class="font-semibold">Service Flow:</span> Users select services to send emails or SMS
-              messages.
-            </li>
-          </ul>
+          <li class="ml-10">
+            The Turbo-Cloud project aims to provide organizations with a
+            versatile platform for managing products and accessing cloud-based services. By utilizing ReactJS, Node.js,
+            Express, and PostgreSQL, the platform offers user-friendly authentication, product management, and a range
+            of services. The project's primary goal is to enhance organizational efficiency by providing easy access to
+            cloud services.
+          </li>
+
         </ul>
       </div>
     </main>
